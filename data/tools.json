@@ -1,0 +1,229 @@
+{
+  "keyword": "invoke ai alternatives",
+  "title": "InvokeAI alternatives for local editing and hosted production",
+  "lastChecked": "2026-09-25",
+  "capabilityChecks": [
+    {
+      "key": "selfHostedRuntime",
+      "label": "Self-hosted runtime"
+    },
+    {
+      "key": "visualGraph",
+      "label": "Visual graph"
+    },
+    {
+      "key": "restApi",
+      "label": "REST API"
+    },
+    {
+      "key": "imageTools",
+      "label": "Image tools"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "InvokeAI",
+      "tagline": null,
+      "homepage": "https://invoke.ai",
+      "docs": "https://github.com/invoke-ai/InvokeAI",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": "Image operations; see documented model and format support",
+      "freeTier": "unverified",
+      "repo": "invoke-ai/InvokeAI",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. The local edition is distinct from commercial hosted offerings. Review the project licence and model licences for your use.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://github.com/invoke-ai/InvokeAI"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": true,
+        "visualGraph": true,
+        "restApi": null,
+        "imageTools": true
+      },
+      "live": {
+        "stars": 28286,
+        "lastPush": "2026-09-24T16:26:37Z",
+        "latestRelease": "v6.14.1",
+        "latestReleaseDate": "2026-09-06",
+        "checkedAt": "2026-09-25"
+      }
+    },
+    {
+      "n": 2,
+      "name": "ComfyUI",
+      "tagline": null,
+      "homepage": "https://www.comfy.org",
+      "docs": "https://docs.comfy.org",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": "Comfy-Org/ComfyUI",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. ComfyUI has both local and hosted routes. Downloadable software does not make GPU use, hosted services or every model licence free.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.comfy.org"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": true,
+        "visualGraph": true,
+        "restApi": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": 134878,
+        "lastPush": "2026-09-25T02:33:21Z",
+        "latestRelease": "v0.37.0",
+        "latestReleaseDate": "2026-09-21",
+        "checkedAt": "2026-09-25"
+      }
+    },
+    {
+      "n": 3,
+      "name": "Wireflow",
+      "tagline": null,
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Hosted MCP; see official connector setup",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/docs"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": null,
+        "visualGraph": true,
+        "restApi": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Krea AI",
+      "tagline": null,
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/developers/introduction",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.krea.ai/docs/developers/introduction"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": null,
+        "visualGraph": true,
+        "restApi": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Flora AI",
+      "tagline": null,
+      "homepage": "https://flora.ai",
+      "docs": "https://developer.flora.ai/api/",
+      "pricing": null,
+      "claudeConnection": "Hosted MCP with OAuth",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Official CLI installation; this installs software but submits no generation:",
+          "lang": "bash",
+          "code": "go install github.com/florafauna-ai/flora-cli/cmd/flora@latest"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": null,
+        "visualGraph": true,
+        "restApi": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "fal",
+      "tagline": null,
+      "homepage": "https://fal.ai",
+      "docs": "https://fal.ai/docs/documentation",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://fal.ai/docs/documentation"
+        }
+      ],
+      "capabilities": {
+        "selfHostedRuntime": null,
+        "visualGraph": null,
+        "restApi": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    }
+  ]
+}
