@@ -12,7 +12,7 @@ A maintained dataset of **invoke ai alternatives** options: what each one connec
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-19** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-26** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -44,8 +44,8 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[InvokeAI](#1-invokeai)** | n/a | n/a | n/a | Image operations; see documented model and format support | n/a | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI), 28,754 ★, v6.14.2 |
-| **[ComfyUI](#2-comfyui)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 139,236 ★, v0.42.1 |
+| **[InvokeAI](#1-invokeai)** | n/a | n/a | n/a | Image operations; see documented model and format support | n/a | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI), 28,868 ★, v6.14.2 |
+| **[ComfyUI](#2-comfyui)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 143,135 ★, v0.42.1 |
 | **[Wireflow](#3-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | n/a |
 | **[Krea AI](#4-krea-ai)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
 | **[Flora AI](#5-flora-ai)** | Hosted MCP with OAuth | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |

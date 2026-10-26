@@ -1,7 +1,7 @@
 {
   "keyword": "invoke ai alternatives",
   "title": "InvokeAI alternatives for local editing and hosted production",
-  "lastChecked": "2026-10-19",
+  "lastChecked": "2026-10-26",
   "capabilityChecks": [
     {
       "key": "selfHostedRuntime",
@@ -48,11 +48,11 @@
         "imageTools": true
       },
       "live": {
-        "stars": 28754,
-        "lastPush": "2026-10-19T10:28:17Z",
+        "stars": 28868,
+        "lastPush": "2026-10-26T09:48:04Z",
         "latestRelease": "v6.14.2",
         "latestReleaseDate": "2026-09-27",
-        "checkedAt": "2026-10-19"
+        "checkedAt": "2026-10-26"
       }
     },
     {
@@ -82,11 +82,11 @@
         "imageTools": true
       },
       "live": {
-        "stars": 139236,
-        "lastPush": "2026-10-19T10:54:06Z",
+        "stars": 143135,
+        "lastPush": "2026-10-26T12:52:32Z",
         "latestRelease": "v0.42.1",
         "latestReleaseDate": "2026-10-19",
-        "checkedAt": "2026-10-19"
+        "checkedAt": "2026-10-26"
       }
     },
     {
